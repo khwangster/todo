@@ -17,6 +17,12 @@ module.exports = function(environment) {
       }
     },
 
+    emblemOptions: {
+      blueprints: true,
+      quiet: false,
+      debugging: true
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

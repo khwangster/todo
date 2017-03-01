@@ -9,5 +9,7 @@ defmodule App.Router do
     pipe_through :api
 
     resources "/tasks", TaskController
+    resources "/users", UserController, only: [:index, :show]
+    resources "/comments", CommentController
   end
 end

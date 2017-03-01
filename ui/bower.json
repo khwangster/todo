@@ -1,5 +1,6 @@
 {
   "name": "done",
   "dependencies": {
+    "semantic-ui": "^2.2.9"
   }
 }

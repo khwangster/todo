@@ -1,0 +1,19 @@
+h1 hello this is working
+
+.ui.three.column.divided.grid
+  .row
+    .column
+    .column
+      .ui.segment
+        .ui.list
+          each model as |task|
+            .item
+              i.checkmark.box.icon
+              = task.description
+    .column
+      p
+        .ui.list
+          each model as |task|
+            .item
+              i.checkmark.box.icon
+              = task.description
