@@ -7,6 +7,7 @@ defmodule App.User do
     field :name, :string
     field :last_emailed_task_id, :integer
     field :enabled, :boolean, default: false
+    has_many :tasks, App.Task
 
     timestamps()
   end

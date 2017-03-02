@@ -5,6 +5,8 @@ defmodule App.Task do
     field :day, Ecto.Date
     field :description, :string
     field :status, :string
+    belongs_to :user, App.User
+    has_many :comments, App.Comment
 
     timestamps()
   end

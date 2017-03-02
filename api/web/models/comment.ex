@@ -2,9 +2,9 @@ defmodule App.Comment do
   use App.Web, :model
 
   schema "comments" do
-    field :user_id, :integer
-    field :task_id, :integer
     field :message, :string
+    belongs_to :user, App.User
+    belongs_to :task, App.Task
 
     timestamps()
   end

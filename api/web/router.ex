@@ -11,5 +11,6 @@ defmodule App.Router do
     resources "/tasks", TaskController
     resources "/users", UserController, only: [:index, :show]
     resources "/comments", CommentController
+    get "/day/:date", DayController, :show
   end
 end
