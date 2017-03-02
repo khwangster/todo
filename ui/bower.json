@@ -1,6 +1,8 @@
 {
   "name": "done",
   "dependencies": {
-    "semantic-ui": "^2.2.9"
+    "semantic-ui": "^2.2.9",
+    "showdown": "^1.6.4",
+    "blueimp-md5": "^2.7.0"
   }
 }

@@ -3,5 +3,7 @@ import DS from 'ember-data';
 export default DS.Model.extend({
   name: DS.attr('string'),
   email: DS.attr('string'),
-  picture_url: 'https://s.gravatar.com/avatar/bae584e0645abb7e71fa2bf1859484e8?s=80',
+  picture_url: Ember.computed('email', function() {
+    return `https://s.gravatar.com/avatar/${md5(this.get('email'))}`
+  })
 });

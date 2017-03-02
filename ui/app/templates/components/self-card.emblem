@@ -1,0 +1,10 @@
+.ui.items
+  .item
+    .ui.tiny.image
+      img src="https://s.gravatar.com/avatar/bae584e0645abb7e71fa2bf1859484e8"
+    .content
+      .header You
+      .description
+        .ui.list
+          each tasks as |task|
+            = task-done description=task.description class="item"

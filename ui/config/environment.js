@@ -23,6 +23,17 @@ module.exports = function(environment) {
       debugging: true
     },
 
+    showdown: {
+      literalMidWordUnderscores: true,
+      strikethrough: true,
+      tables: true,
+      ghCodeBlocks: true,
+      tasklists: true,
+      smoothLivePreview: true,
+      simpleLineBreaks: true,
+      ghMentions: true
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

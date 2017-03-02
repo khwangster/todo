@@ -1,19 +1,11 @@
-h1 hello this is working
-
-.ui.three.column.divided.grid
-  .row
-    .column
-    .column
-      .ui.segment
-        .ui.list
-          each model as |task|
-            .item
-              i.checkmark.box.icon
-              = task.description
-    .column
-      p
-        .ui.list
-          each model as |task|
-            .item
-              i.checkmark.box.icon
-              = task.description
+.full.height
+  h1 hello this is working todo: make a header
+  .ui.three.column.divided.grid
+    .column.two.wide
+    .column.seven.wide
+      | this is what you did today
+      = self-card tasks=model.tasks class="ui segment"
+    .column.seven.wide
+      | this is what your team did today
+      each model.users as |user|
+        = user-card user=user tasks=model.tasks class="ui segment"

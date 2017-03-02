@@ -26,9 +26,11 @@
     "ember-cli-htmlbars-inline-precompile": "^0.3.6",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-jshint": "^2.0.1",
+    "ember-cli-md5": "0.1.0",
     "ember-cli-qunit": "^3.0.1",
     "ember-cli-release": "^0.2.9",
     "ember-cli-shims": "^1.0.2",
+    "ember-cli-showdown": "2.11.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-test-loader": "^1.1.0",
     "ember-cli-uglify": "^1.2.0",
@@ -39,7 +41,8 @@
     "ember-source": "~2.11.0",
     "ember-welcome-page": "^2.0.2",
     "loader.js": "^4.0.10",
-    "semantic-ui-ember": "2.0.1"
+    "semantic-ui-ember": "2.0.1",
+    "showdown": "^1.6.4"
   },
   "engines": {
     "node": ">= 0.12.0"
