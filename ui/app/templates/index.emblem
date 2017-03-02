@@ -8,4 +8,4 @@
     .column.seven.wide
       | this is what your team did today
       each model.users as |user|
-        = user-card user=user tasks=model.tasks class="ui segment"
+        = user-card user=user tasks=user.tasks class="ui segment"
