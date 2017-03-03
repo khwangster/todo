@@ -7,4 +7,4 @@
         .description
           .ui.list
             each tasks as |task|
-              = task-done description=task.description class="item"
+              = task-line description=task.description

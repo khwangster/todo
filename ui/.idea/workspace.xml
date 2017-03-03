@@ -43,18 +43,48 @@
           <file leaf-file-name="day.emblem" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/day.emblem">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="self-card.emblem" pinned="false" current-in-tab="true">
+          <file leaf-file-name="self-card.emblem" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/components/self-card.emblem">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="edit-task.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/components/edit-task.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="checkbox-task.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/components/checkbox-task.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="delete-task.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/components/delete-task.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -75,8 +105,8 @@
           <file leaf-file-name="user-card.emblem" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/components/user-card.emblem">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
@@ -86,11 +116,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="self-card.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="self-card.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/self-card.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -99,8 +129,18 @@
           <file leaf-file-name="user-card.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/user-card.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task-line.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/components/task-line.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -122,10 +162,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/.jshintrc" />
-        <option value="$PROJECT_DIR$/app/templates/components/task-done.emblem" />
         <option value="$PROJECT_DIR$/app/adapters/application.js" />
         <option value="$PROJECT_DIR$/app/models/task.js" />
-        <option value="$PROJECT_DIR$/app/templates/components/user-card.emblem" />
         <option value="$PROJECT_DIR$/app/models/user.js" />
         <option value="$PROJECT_DIR$/app/models/day.js" />
         <option value="$PROJECT_DIR$/app/templates/index.emblem" />
@@ -133,11 +171,20 @@
         <option value="$PROJECT_DIR$/app/routes/application.js" />
         <option value="$PROJECT_DIR$/app/router.js" />
         <option value="$PROJECT_DIR$/app/controllers/day.js" />
-        <option value="$PROJECT_DIR$/app/components/user-card.js" />
         <option value="$PROJECT_DIR$/app/routes/day.js" />
-        <option value="$PROJECT_DIR$/app/templates/day.emblem" />
-        <option value="$PROJECT_DIR$/app/templates/components/self-card.emblem" />
+        <option value="$PROJECT_DIR$/app/templates/components/task-done.emblem" />
+        <option value="$PROJECT_DIR$/app/templates/components/delete-task.emblem" />
+        <option value="$PROJECT_DIR$/app/components/delete-task.js" />
         <option value="$PROJECT_DIR$/app/components/self-card.js" />
+        <option value="$PROJECT_DIR$/app/components/user-card.js" />
+        <option value="$PROJECT_DIR$/app/templates/day.emblem" />
+        <option value="$PROJECT_DIR$/app/components/task-line.js" />
+        <option value="$PROJECT_DIR$/app/templates/components/user-card.emblem" />
+        <option value="$PROJECT_DIR$/app/templates/components/self-card.emblem" />
+        <option value="$PROJECT_DIR$/app/templates/components/edit-task.emblem" />
+        <option value="$PROJECT_DIR$/app/components/edit-task.js" />
+        <option value="$PROJECT_DIR$/app/components/checkbox-task.js" />
+        <option value="$PROJECT_DIR$/app/templates/components/task-line.emblem" />
       </list>
     </option>
   </component>
@@ -319,7 +366,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.File Status" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="day&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/templates/day.emblem&#10;self-ca&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/components/self-card.js&#10;router&#9;null&#9;null&#10;user&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/models/user.js&#10;usercard&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/components/user-card.js&#10;routes&#9;FILE&#9;file:///Users/ken/truex/done/ui/node_modules/bower/lib/node_modules/github/api/v2.0.0/routes.json&#10;broc&#9;FILE&#9;file:///Users/ken/truex/done/ui/node_modules/ember-cli-md5/Brocfile.js&#10;index.h&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/templates/index.hbs&#10;application.js&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/routes/application.js" />
+    <property name="SearchEverywhereHistoryKey" value="task&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/templates/components/task-line.emblem&#10;self-ca&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/templates/components/self-card.emblem&#10;day&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/templates/day.emblem&#10;router&#9;null&#9;null&#10;user&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/models/user.js&#10;usercard&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/components/user-card.js&#10;routes&#9;FILE&#9;file:///Users/ken/truex/done/ui/node_modules/bower/lib/node_modules/github/api/v2.0.0/routes.json&#10;broc&#9;FILE&#9;file:///Users/ken/truex/done/ui/node_modules/ember-cli-md5/Brocfile.js&#10;index.h&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/templates/index.hbs&#10;application.js&#9;FILE&#9;file:///Users/ken/truex/done/ui/app/routes/application.js" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -474,12 +521,12 @@
       <workItem from="1488318098142" duration="5404000" />
       <workItem from="1488377197884" duration="2212000" />
       <workItem from="1488398751608" duration="1905000" />
-      <workItem from="1488400847329" duration="26210000" />
+      <workItem from="1488400847329" duration="27613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37886000" />
+    <option name="totallyTimeSpent" value="39289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,6 +706,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -744,14 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/components/task-done.emblem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -824,22 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/user-card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/components/user-card.emblem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/day.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -850,26 +874,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/day.emblem">
+    <entry file="file://$PROJECT_DIR$/app/templates/components/delete-task.emblem">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/components/self-card.emblem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/self-card.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/user-card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/user-card.emblem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/edit-task.emblem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/self-card.emblem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/day.emblem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/delete-task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/edit-task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/task-line.emblem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/task-line.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/checkbox-task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

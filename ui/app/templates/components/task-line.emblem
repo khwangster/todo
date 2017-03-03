@@ -1,0 +1,8 @@
+= checkbox-task
+if canEdit
+  = edit-task
+  = delete-task
+/if
+.content
+  .description
+    = markdown-to-html description

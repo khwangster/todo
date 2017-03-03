@@ -2,8 +2,8 @@
   .column.two.wide
   .column.seven.wide
     | this is what you did today
-    = self-card users=model.day.users test="help" class="ui segment"
+    = self-card users=model.day.users
   .column.seven.wide
     | this is what your team did today
     each model.day.users as |user|
-      = user-card user=user tasks=user.tasks class="ui segment"
+      = user-card user=user tasks=user.tasks

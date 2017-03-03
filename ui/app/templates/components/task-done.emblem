@@ -1,6 +1,0 @@
-i.checkmark.box.icon
-i.write.icon
-i.trash.outline.icon
-.content
-  .description
-    = markdown-to-html description

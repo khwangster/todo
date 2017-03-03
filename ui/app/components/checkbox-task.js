@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  classNames: ['ui', 'segment'],
+  tagName: 'i',
+  classNames: ['checkmark', 'box', 'icon']
 });
