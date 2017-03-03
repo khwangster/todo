@@ -7,3 +7,13 @@ i.actionable-icon {
     animation-duration: 500ms;
   }
 }
+
+.calendar {
+  padding-left: 0.5em;
+
+  > table.day {
+    min-width: 0 !important;
+  }
+}
+
+@import "ember-power-calendar";

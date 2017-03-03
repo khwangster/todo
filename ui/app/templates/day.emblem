@@ -1,5 +1,8 @@
 .ui.three.column.divided.grid
   .column.two.wide
+    = power-calendar selected=model.date onSelect=(route-action "changeDate" value="moment") as |calendar|
+      = calendar.nav
+      = calendar.days
   .column.seven.wide
     | this is what you did today
     = self-card users=model.day.users

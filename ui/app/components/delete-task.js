@@ -5,7 +5,6 @@ export default Ember.Component.extend({
   classNames: ['trash', 'outline', 'icon', 'actionable-icon'],
 
   click() {
-    console.log("delete was clicked");
     this.sendAction('onClick')
   }
 });
