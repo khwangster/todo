@@ -1,10 +1,10 @@
-.ui.items
-  .item
-    .ui.tiny.image
-      img src=user.picture_url
-    .content
-      .header = user.name
-      .description
-        .ui.list
-          each tasks as |task|
-            = task-done description=task.description class="item"
+  .ui.items
+    .item
+      .ui.tiny.image
+        img src=user.picture_url
+      .content
+        .header = user.name
+        .description
+          .ui.list
+            each tasks as |task|
+              = task-done description=task.description class="item"

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170302054511) do
+ActiveRecord::Schema.define(version: 20170302195825) do
 
   create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
     t.integer  "user_id"
@@ -20,6 +20,13 @@ ActiveRecord::Schema.define(version: 20170302054511) do
     t.datetime "updated_at",               null: false
     t.index ["task_id"], name: "index_comments_on_task_id", using: :btree
     t.index ["user_id"], name: "index_comments_on_user_id", using: :btree
+  end
+
+  create_table "days", id: false, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
+    t.date    "date",    null: false
+    t.boolean "weekend"
+    t.boolean "holiday"
+    t.index ["date"], name: "index_days_on_date", using: :btree
   end
 
   create_table "tasks", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|

@@ -4,8 +4,7 @@ import RSVP from 'rsvp';
 export default Ember.Route.extend({
   model() {
     return RSVP.hash({
-      // tasks: this.store.findAll('task'),
-      users: this.store.findAll('user', {include: 'tasks'})
+      day: this.store.findRecord('day', '2017-02-28', {include: 'tasks,users,users.tasks' })
     });
   }
 });

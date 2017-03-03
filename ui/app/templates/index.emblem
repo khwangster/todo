@@ -7,5 +7,5 @@
       = self-card tasks=model.tasks class="ui segment"
     .column.seven.wide
       | this is what your team did today
-      each model.users as |user|
+      each model.day.users as |user|
         = user-card user=user tasks=user.tasks class="ui segment"
