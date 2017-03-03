@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('day', { path: '/day/:date' })
 });
 
 export default Router;

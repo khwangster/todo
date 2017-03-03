@@ -1,1 +1,4 @@
+.ui.menu
+  .item
+    h1 true[✓]
 = outlet
