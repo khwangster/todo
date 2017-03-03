@@ -6,8 +6,7 @@ export default Ember.Route.extend({
     return RSVP.hash({
       day: this.store.findRecord('day', params.date, {include: 'tasks,users,users.tasks' })
     });
-  }
-
+  },
 });
 
 

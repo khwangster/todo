@@ -1,7 +1,9 @@
-= checkbox-task
 if canEdit
+  = checkbox-task
   = edit-task
-  = delete-task
+  = delete-task onClick=(action deleteAction)
+else
+  i.checkmark.box.icon
 /if
 .content
   .description

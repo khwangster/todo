@@ -8,4 +8,8 @@ each self as |user|
         .description
           .ui.list
             each user.tasks as |task|
-              = task-line description=task.description canEdit=true
+              = task-line [
+                description=task.description
+                canEdit=true
+                deleteAction=(action 'deleteTask' task.id)
+              ]
