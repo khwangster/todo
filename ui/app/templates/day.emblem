@@ -1,7 +1,11 @@
 .ui.three.column.divided.grid
   .column.two.wide
-    = power-calendar selected=model.date onSelect=(route-action "changeDate" value="moment") as |calendar|
-      = calendar.nav
+    = power-calendar selected=model.date center=month onSelect=(route-action "changeDate" value="moment") onCenterChange=(action (mut month) value="date") as |calendar|
+      nav.ember-power-calendar-nav
+        button.ember-power-calendar-nav-control click="calendar.actions.moveCenter -1 'month'" ‹
+        .ember-power-calendar-nav-title
+          = moment-format calendar.center 'MMMM YYYY'
+        button.ember-power-calendar-nav-control click="calendar.actions.moveCenter 1 'month'" ›
       = calendar.days
   .column.seven.wide
     | this is what you did today
