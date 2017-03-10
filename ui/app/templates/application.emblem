@@ -1,4 +1,14 @@
-.ui.menu
-  .item
-    h1 true[✓]
-= outlet
+.ui.grid
+  .row
+    .ui.three.column.grid
+      .column.two.wide.center.aligned
+        .item
+          h1 true[✓]
+      .column.ten.wide
+      .column.four.wide
+        .item
+          .ui.icon.input.fluid
+            input placeholder="Search" type="text"
+            i.search.link.icon
+  .row
+    = outlet

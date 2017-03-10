@@ -1,4 +1,4 @@
-.ui.three.column.divided.grid
+.ui.three.column.grid
   .column.two.wide
     = power-calendar selected=model.date center=month onSelect=(route-action "changeDate" value="moment") onCenterChange=(action (mut month) value="date") as |calendar|
       nav.ember-power-calendar-nav
@@ -8,9 +8,12 @@
         button.ember-power-calendar-nav-control click="calendar.actions.moveCenter 1 'month'" ›
       = calendar.days
   .column.seven.wide
-    | this is what you did today
+    | You
     = self-card users=model.day.users
+    .ui.form
+      .field
+        textarea rows=2 placeholder="What did you get done today?"
   .column.seven.wide
-    | this is what your team did today
+    | Your Team
     each model.day.users as |user|
       = user-card user=user tasks=user.tasks
