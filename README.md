@@ -1,2 +1,2 @@
 # todo
-A todo app on ember/phoenix 
+A todo app on ember / ~~phoenix~~ rails  
