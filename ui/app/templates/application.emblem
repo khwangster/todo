@@ -2,8 +2,8 @@
   .row
     .ui.three.column.grid
       .column.two.wide.center.aligned
-        .item
-          h1 true[✓]
+        .item.truex-logo
+          img src="/assets/truexCHECK_dark.png"
       .column.ten.wide
       .column.four.wide
         .item
